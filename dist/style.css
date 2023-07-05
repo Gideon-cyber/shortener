@@ -473,6 +473,96 @@ button:hover::after,
   display: none;
 }
 
+.lottie-animation {
+  width: 300px;
+  height: 160px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.lottie-animation__first {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.lottie-animation__first_textbox {
+  position: relative;
+}
+.lottie-animation__first_image1 {
+  width: 100%;
+  animation: image1-animation 3s ease-in-out infinite;
+}
+.lottie-animation__first_image2 {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  width: 30px;
+  animation: image1-animation 3s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+.lottie-animation__first_text {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  transform: translate(-50%, -50%);
+  color: #0b101b;
+  font-size: 12px;
+  font-weight: 600;
+  animation: image1-animation 3s ease-in-out infinite;
+}
+.lottie-animation__second {
+  width: 70%;
+  margin-left: auto;
+}
+.lottie-animation__second_textbox {
+  position: relative;
+}
+.lottie-animation__second_image1 {
+  width: 100%;
+  animation: image1-animation 3s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+.lottie-animation__second_image2 {
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  width: 30px;
+  animation: image1-animation 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+.lottie-animation__second_text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-weight: 600;
+  animation: image1-animation 3s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes image1-animation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(200px);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .footer {
   background-color: #0b101b;
   color: hsl(0, 0%, 100%);
