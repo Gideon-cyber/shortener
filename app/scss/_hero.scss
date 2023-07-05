@@ -260,7 +260,7 @@
   }
 }
 
-.lottie-animation {
+.hero-animation {
   width: 300px;
   height: 160px;
   overflow: hidden;
@@ -337,32 +337,5 @@
       animation: image1-animation 4s ease-in-out infinite;
       animation-delay: 0.4s;
     }
-  }
-}
-
-@keyframes image1-animation {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(0);
-  }
-  35% {
-    transform: translateY(0);
-  }
-  55% {
-    transform: translateY(0);
-  }
-  65% {
-    transform: translateY(200px);
-  }
-  75% {
-    transform: translateY(0);
-  }
-  85% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(0);
   }
 }

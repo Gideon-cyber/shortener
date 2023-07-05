@@ -57,6 +57,32 @@
     background-size: 89%;
   }
 }
+@keyframes image1-animation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(0);
+  }
+  55% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(200px);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -473,7 +499,7 @@ button:hover::after,
   display: none;
 }
 
-.lottie-animation {
+.hero-animation {
   width: 300px;
   height: 160px;
   overflow: hidden;
@@ -481,18 +507,18 @@ button:hover::after,
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.lottie-animation__first {
+.hero-animation__first {
   width: 70%;
   margin-bottom: 10px;
 }
-.lottie-animation__first_textbox {
+.hero-animation__first_textbox {
   position: relative;
 }
-.lottie-animation__first_image1 {
+.hero-animation__first_image1 {
   width: 100%;
   animation: image1-animation 4s ease-in-out infinite;
 }
-.lottie-animation__first_image2 {
+.hero-animation__first_image2 {
   position: absolute;
   top: -15px;
   right: -10px;
@@ -500,7 +526,7 @@ button:hover::after,
   animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.2s;
 }
-.lottie-animation__first_text {
+.hero-animation__first_text {
   position: absolute;
   top: 20%;
   left: 10px;
@@ -510,19 +536,19 @@ button:hover::after,
   font-weight: 600;
   animation: image1-animation 4s ease-in-out infinite;
 }
-.lottie-animation__second {
+.hero-animation__second {
   width: 70%;
   margin-left: auto;
 }
-.lottie-animation__second_textbox {
+.hero-animation__second_textbox {
   position: relative;
 }
-.lottie-animation__second_image1 {
+.hero-animation__second_image1 {
   width: 100%;
   animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.4s;
 }
-.lottie-animation__second_image2 {
+.hero-animation__second_image2 {
   position: absolute;
   top: -15px;
   left: -10px;
@@ -530,7 +556,7 @@ button:hover::after,
   animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.5s;
 }
-.lottie-animation__second_text {
+.hero-animation__second_text {
   position: absolute;
   top: 20%;
   left: 20%;
@@ -542,32 +568,6 @@ button:hover::after,
   animation-delay: 0.4s;
 }
 
-@keyframes image1-animation {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(0);
-  }
-  35% {
-    transform: translateY(0);
-  }
-  55% {
-    transform: translateY(0);
-  }
-  65% {
-    transform: translateY(200px);
-  }
-  75% {
-    transform: translateY(0);
-  }
-  85% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 .footer {
   background-color: #0b101b;
   color: hsl(0, 0%, 100%);
