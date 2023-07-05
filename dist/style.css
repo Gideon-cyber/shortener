@@ -478,6 +478,8 @@ button:hover::after,
   height: 160px;
   overflow: hidden;
   padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .lottie-animation__first {
   width: 70%;
@@ -488,14 +490,14 @@ button:hover::after,
 }
 .lottie-animation__first_image1 {
   width: 100%;
-  animation: image1-animation 3s ease-in-out infinite;
+  animation: image1-animation 4s ease-in-out infinite;
 }
 .lottie-animation__first_image2 {
   position: absolute;
   top: -15px;
   right: -10px;
   width: 30px;
-  animation: image1-animation 3s ease-in-out infinite;
+  animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.2s;
 }
 .lottie-animation__first_text {
@@ -506,7 +508,7 @@ button:hover::after,
   color: #0b101b;
   font-size: 12px;
   font-weight: 600;
-  animation: image1-animation 3s ease-in-out infinite;
+  animation: image1-animation 4s ease-in-out infinite;
 }
 .lottie-animation__second {
   width: 70%;
@@ -517,7 +519,7 @@ button:hover::after,
 }
 .lottie-animation__second_image1 {
   width: 100%;
-  animation: image1-animation 3s ease-in-out infinite;
+  animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.4s;
 }
 .lottie-animation__second_image2 {
@@ -525,7 +527,7 @@ button:hover::after,
   top: -15px;
   left: -10px;
   width: 30px;
-  animation: image1-animation 3s ease-in-out infinite;
+  animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.5s;
 }
 .lottie-animation__second_text {
@@ -536,7 +538,7 @@ button:hover::after,
   color: hsl(0, 0%, 100%);
   font-size: 12px;
   font-weight: 600;
-  animation: image1-animation 3s ease-in-out infinite;
+  animation: image1-animation 4s ease-in-out infinite;
   animation-delay: 0.4s;
 }
 
@@ -548,6 +550,9 @@ button:hover::after,
     transform: translateY(0);
   }
   35% {
+    transform: translateY(0);
+  }
+  55% {
     transform: translateY(0);
   }
   65% {
